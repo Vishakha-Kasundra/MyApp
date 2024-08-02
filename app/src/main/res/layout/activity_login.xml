@@ -18,7 +18,7 @@
         android:text="Registration Page" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/edtSurname"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -27,7 +27,7 @@
         android:text="" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName3"
+        android:id="@+id/edtName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -36,60 +36,57 @@
         android:text="" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName4"
+        android:id="@+id/edtEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="Enter Email"
-        android:inputType="textPersonName"
-        android:text="" />
+        android:inputType="textEmailAddress" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName5"
+        android:id="@+id/edtPass"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="Enter Password"
-        android:inputType="textPersonName"
-        android:text="" />
+        android:inputType="numberPassword" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName6"
+        android:id="@+id/edtDateBirth"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="Enter Date Of Birth"
-        android:inputType="textPersonName"
-        android:text="" />
+        android:hint="Enter Your BirthDate"
+        android:inputType="date" />
 
     <RadioGroup
+        android:id="@+id/gender"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
 
         <RadioButton
-            android:id="@+id/radioButton3"
+            android:id="@+id/male"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Male" />
 
         <RadioButton
-            android:id="@+id/radioButton4"
+            android:id="@+id/female"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Female" />
     </RadioGroup>
 
-    <EditText
-        android:id="@+id/editTextTextPersonName7"
+
+    <AutoCompleteTextView
+        android:id="@+id/City"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="Enter City"
-        android:inputType="textPersonName"
+        android:hint="Select City"
         android:text="" />
 
     <Button
